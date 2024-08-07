@@ -13,6 +13,8 @@ You can help Soumya by building a simple Text to query system that can generate 
 **Output:** Generate the respective results in Excel or probe more if you don't understand the question.
 
 **Stakeholders:**
+* _Virupakshi:_ She asks for inputs in plain English and get the required data in excel/csv
+* _Soumya:_ Updates the meta-model of the relational database schema so that Virupakshi can ask the right questions through the Text2Query GUI
 
 
 
