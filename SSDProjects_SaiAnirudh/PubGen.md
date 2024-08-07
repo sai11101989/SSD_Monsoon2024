@@ -1,4 +1,4 @@
-Project_3: Publication Impact Statistics using CrossRef API 
+Project_4: Publication Generator using DBLP 
 
 Context:  
 
@@ -12,4 +12,4 @@ Technology Stack:
 
 Team Size: 4 
 
-Point of Contact: Sai Anirudh Karre (saianirudh.karre@iiit.ac.in) 
+Point of Contact: Sai Anirudh Karre (saianirudh.karre@iiit.ac.in)
