@@ -7,8 +7,8 @@ Soumya is fed up handling such requests daily from various bankers across all br
 You can help Soumya by building a simple Text to query system that can generate an SQL query using plain English text as input and generate results that are not more than 1000 rows in the form of Excel/CSV.
 
 **Input:** Plain English query. Below are a few examples:
-$$ Provide me the top 10 transactions of account number: 201621536989 for July 2024.
-$$ Provide me the list of users who used the ATM on January 1, 2024, between 9:00 am to 12 noon and who withdrew money less than 1000 rupees. 
+* Provide me the top 10 transactions of account number: 201621536989 for July 2024.
+* Provide me the list of users who used the ATM on January 1, 2024, between 9:00 am to 12 noon and who withdrew money less than 1000 rupees. 
 
 **Output:** Generate the respective results in Excel or probe more if you don't understand the question.
 
