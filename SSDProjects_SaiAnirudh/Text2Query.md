@@ -19,11 +19,13 @@ You can help Soumya by building a simple Text to query system that can generate 
 * HTML, CSS, JS for Web site with a Chat GUI for Virupakshi, Meta-model updater for Soumya
 * SQL generator in JS so that it can be passed to relational database and obtains data to Web using API or RPC
 
-Chornology of Tasks:
+**Chornology of Tasks:**
 * Define a database of your choice and publish a meta-model of the schema in Web readable format (JSON/XML)
 * Populate Junk data generation using pre-populated SQL script
 * Develope a Chat GUI to initiate a conversation (open to your interpretation)
-* Requestor asks a query in plain english, we 
+* Requestor asks a query in plain english, we need to break it and convert a SQL version of the query
+* Send the query to SQL and execute remotely
+* Generate a CSV or Excel download in the Chat interface
 
 **Team Size:** 4
 
