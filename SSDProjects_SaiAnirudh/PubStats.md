@@ -1,15 +1,17 @@
-Project_2: Publication Impact Statistics using CrossRef API 
+**Project Name:** Publication Impact Statistics using CrossRef API 
 
-Context:  
+**Context: ** 
 
-Resources: 
+**Resources: **
 
-Input: 
+**Input: **
 
-Output: 
+**Output: **
 
-Technology Stack: 
+**Technology Stack: **
 
-Team Size: 4 
+**Chornology of Tasks**
 
-Point of Contact: Sai Anirudh Karre (saianirudh.karre@iiit.ac.in) 
+**Team Size:** 4 
+
+**Point of Contact:** Sai Anirudh Karre (saianirudh.karre@iiit.ac.in) 
