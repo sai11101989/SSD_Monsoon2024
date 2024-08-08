@@ -1,14 +1,15 @@
 **Project Name:** Publication Impact Statistics using CrossRef API 
 
-**Context: ** 
+**Context:** 
 
-**Resources: **
+**Resources:**
 
-**Input: **
+**Input:**
 
-**Output: **
+**Output:**
 
-**Technology Stack: **
+**Technology Stack:**
+* HTML, CSS, JS, APIs, Python 
 
 **Chornology of Tasks**
 
