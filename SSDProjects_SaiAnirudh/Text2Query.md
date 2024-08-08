@@ -30,3 +30,5 @@ You can help Soumya by building a simple Text to query system that can generate 
 **Team Size:** 4
 
 **Point of Contact:** Sai Anirudh Karre (saianirudh.karre@iiit.ac.in)
+
+**Inspiration:** https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff
