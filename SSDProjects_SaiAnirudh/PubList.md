@@ -2,7 +2,10 @@
 
 **Context:** Computer Research Labs and Computer Researchers (especially in Computer Science) face challenges on manually listing their publication information on their personal webpages or research centers. **Sulochana** is a PhD Research Scholar at one of the research labs at IIT Kashmir and is was tasked to update the publication page of their research center on month-on-month basis. This activity needs to be automated so as to avoid manual updates on personal pages of researchers and also on the Research Lab websites.
 
-**Resources:** Rely on Opensource  https://dblp.org/faq/How+to+use+the+dblp+search+API.html 
+**Resources:** 
+* DBLP Publication API: https://dblp.org/faq/How+to+use+the+dblp+search+API.html
+* Google Scholar API: https://serpapi.com/google-scholar-api
+* Google Scholar Playground: https://serpapi.com/playground?engine=google_scholar&q=Coffee&hl=en
 
 **Input:** Read the researcher details and sent it to the respective API
 
