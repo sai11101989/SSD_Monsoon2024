@@ -15,6 +15,10 @@ For example, Sushma - a Finance manager from Finance and Accounting department w
 * Sushma is exposed a Chat room that probes queries on reporting requirements using the underlying bare-minimum meta-model for reporting requests
 * Once the elicitation is complete, the requirement needs to be summarized in plain English and should be sent to Priyamwada
 
+**Stakeholders:**
+* Priyamwada: Should be able to create a meta-model and upload it to the Tool
+* Sushma: Should be able to converse with the tool and get her report requirement submited 
+
 **Team Size:** 4 
 
 **Point of Contact:** Sai Anirudh Karre (saianirudh.karre@iiit.ac.in) 
