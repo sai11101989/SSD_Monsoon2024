@@ -2,6 +2,8 @@
 
 **Context:** Computer Research Labs and Computer Researchers (especially in Computer Science) face challenges on manually listing their publication information on their personal webpages or research centers. **Sulochana** is a PhD Research Scholar at one of the research labs at IIT Kashmir and is was tasked to update the publication page of their research center on month-on-month basis. This activity needs to be automated so as to avoid manual updates on personal pages of researchers and also on the Research Lab websites.
 
+Sulochana needs your help to build a JavaScript library which can be used on her personal page and research website and list of the publication data ondemand.
+
 **Resources:** 
 * DBLP Publication API: https://dblp.org/faq/How+to+use+the+dblp+search+API.html
 * Google Scholar API: https://serpapi.com/google-scholar-api
