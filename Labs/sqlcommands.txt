@@ -1,0 +1,90 @@
+create database class;
+DROP database class;
+
+use class;
+
+CREATE TABLE students (
+student_id INT PRIMARY KEY,
+firstname VARCHAR(50) NOT NULL,
+lastname VARCHAR(50) NOT NULL,
+email VARCHAR(100) UNIQUE,
+joining_date DATE,
+rollnumber INT,
+branchid INT
+);
+
+CREATE TABLE branch (
+branchid INT PRIMARY KEY,
+branchname VARCHAR(50) NOT NULL,
+branchtype VARCHAR(50) NOT NULL,
+branchcode VARCHAR(100) UNIQUE
+);
+
+DROP TABLE branch;
+
+ALTER TABLE students
+modify column branchid INT;
+
+ALTER TABLE students
+ADD FOREIGN KEY (branchid) REFERENCES branch(branchid);
+
+ALTER TABLE branch
+ADD test varchar(10);
+
+ALTER TABLE branch
+DROP COLUMN test;
+
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('21', 'Computer Science', 'B.Tech', 'B-CSE');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('22', 'Electronics', 'B.Tech', 'B-ECE');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('23', 'Electric', 'B.Tech', 'B-EEE');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('24', 'Mechanical', 'B.Tech', 'B-MEC');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('25', 'Civil', 'B.Tech', 'B-CIV');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('26', 'Computer Science', 'M.Tech', 'M-CSE');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('27', 'Electronics', 'M.Tech', 'M-ECE');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('28', 'Electric', 'M.Tech', 'M-EEE');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('29', 'Mechanical', 'M.Tech', 'M-MEC');
+INSERT INTO branch (branchid, branchname, branchtype, branchcode)
+VALUES ('30', 'Civil', 'M.Tech', 'M-CIV');
+
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('201', 'Sai', 'Anirudh', 'saianirudh.karre@iiit.ac.in', '2024-02-02','20162153','26');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('202', 'Kanika', 'Aapan', 'Aapan.Kanika@iiit.ac.in', '2024-02-21','20162154','26');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('203', 'Pavan', 'Achanti', 'Pavan.Achanti@iiit.ac.in', '2024-02-16','20162155','26');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('204', 'Sanket', 'Adlak', 'Sanket.Adlak@iiit.ac.in', '2024-02-11','20162157','26');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('205', 'Akhila', 'Anumalla', 'Akhila.Anumalla@iiit.ac.in', '2024-02-06','20162159','26');
+
+===
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('206', 'Sai', 'Parth', 'sai.parth@iiit.ac.in', '2022-02-02','20172153','21');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('207', 'Rajender', 'Annam', 'Rajender.Annam@iiit.ac.in', '2022-02-21','20172154','21');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('208', 'Aarathi', 'Baburaj', 'Aarathi.Baburaj@iiit.ac.in', '2022-02-16','20172155','21');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('209', 'Subhendu', 'Bag', 'Subhendu.Bag@iiit.ac.in', '2022-02-11','20172157','21');
+
+INSERT INTO students (student_id, firstname, lastname, email, joining_date, rollnumber, branchid) VALUES ('210', 'Eshwar', 'Balla', 'Eshwar.Balla@iiit.ac.in', '2022-02-06','20172159','21');
+
+
+SELECT * FROM students;
+
+SELECT * FROM students where email="saianirudh.karre@iiit.ac.in";
+
+SELECT * FROM students where name like '%Sai%'
+
+
+select * from students s
+join branch b on b.branchid=s.branchid
+where b.branchcode='M-CSE'
